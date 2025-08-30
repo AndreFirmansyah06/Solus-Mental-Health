@@ -16,21 +16,21 @@
           >
             <img
               src="assets/Illustration_1.png"
-              class="absolute bottom-0 right-0 h-140 rounded-3xl"
+              class="absolute bottom-0 right-0 w-auto h-70 xl:h-140 rounded-3xl z-10"
               alt=""
             />
             <img
               src="assets/Illustration_2.png"
-              class="absolute left-0 bottom-0 rounded-3xl"
+              class="absolute left-0 bottom-0 w-30 h-auto rounded-3xl z-10"
               alt=""
             />
             <div
-              class="text w-[50%] flex flex-col items-center justify-center text-center gap-5 text-[#00373E]"
+              class="text w-[80%] lg:w-[50%] flex flex-col items-center justify-center text-center gap-5 text-[#00373E] z-20"
             >
-              <p class="text-7xl font-bold">
+              <p class="text-4xl xl:text-7xl font-bold">
                 support for your mental well-being
               </p>
-              <p class="text-xl font-normal">
+              <p class="text-sm lg:text-xl font-normal">
                 Connect with licensed therapists, counselors, and wellness
                 coaches to support your journey.
               </p>
@@ -41,10 +41,13 @@
           </div>
 
           <!-- How It Works  -->
-          <div class="how-it-works grid grid-cols-2 py-20">
-            <div class="text-[#00373E] py-2 px-5 space-y-13 text-2xl">
-              <p class="text-lg">how it works</p>
-              <p class="font-bold text-7xl">
+          <div class="how-it-works grid grid-cols-1 lg:grid-cols-2 py-20 gap-5">
+            <div
+              class="text-[#00373E] py-2 px-5 space-y-13 text-2xl order-2 lg:order-1 text-center lg:text-start"
+            >
+            <p class="text-lg">how it works</p>
+
+              <p class="font-bold  text-4xl lg:text-7xl">
                 We Help You Prioritize Your Mental Health
               </p>
               <p>
@@ -52,19 +55,19 @@
                 journey with trusted professionals.
               </p>
               <button
-                class="bg-[#00373E] text-white px-5 py-2 rounded-3xl text-lg"
+                class="bg-[#00373E] text-white px-5 py-2 rounded-3xl text-sm lg:text-lg"
               >
                 Find a Therapist
               </button>
             </div>
-            <div class="image mx-auto">
+            <div class="image mx-auto order-1 lg:order-2">
               <img src="assets/Frame 4.png" class="w-120 h-auto" alt="" />
             </div>
           </div>
 
           <!-- Service  -->
 
-          <div class="service py-20 text-[#00373E]">
+          <!-- <div class="service py-20 text-[#00373E]">
             <div class="title flex flex-col items-center gap-3 text-2xl">
               <p>services</p>
               <p class="text-7xl font-bold w-[40%] text-center">
@@ -104,9 +107,12 @@
                 </button>
               </div>
             </div>
+            </div> -->
 
-            <!-- Wellness Coaching -->
-            <div class="banner w-full relative bg-white rounded-3xl p-10 h-100 space-y-10">
+          <!-- Wellness Coaching -->
+          <!-- <div
+              class="banner w-full relative bg-white rounded-3xl p-10 h-100 space-y-10"
+            >
               <p class="text-7xl font-bold">Wellness Coaching</p>
               <p class="text-xl w-[50%]">
                 Personalized guidance to help you build healthier habits, manage
@@ -116,9 +122,84 @@
                 routines for mental, emotional, and physical well-being.
               </p>
               <button>Learn More</button>
-              <img src="assets/illustration_6.png" class="absolute right-0 bottom-0 w-auto h-100 rounded-3xl" alt="">
-            </div>
-          </div>
+              <img
+                src="assets/illustration_6.png"
+                class="absolute right-0 bottom-0 w-auto h-100 rounded-3xl"
+                alt=""
+              />
+            </div> -->
+
+          <!-- Our Partners  -->
+          <!-- <div
+              class="our-partners flex justify-around items-center px-5 py-10 bg-white rounded-3xl my-20"
+            >
+              <p class="text-xl font-semibold">our partners</p>
+              <img src="assets/Company logo.png" alt="" />
+              <img src="assets/Company logo (1).png" alt="" />
+              <img src="assets/Company logo (2).png" alt="" />
+              <img src="assets/Company logo (3).png" alt="" />
+              <img src="assets/Company logo (4).png" alt="" />
+            </div> -->
+
+          <!-- Explore & Learn  -->
+          <!-- <div class="explore-wrapper py-20 text-2xl">
+              <div class="title flex flex-col items-center gap-5">
+                <p>explore & learn</p>
+                <p class="text-7xl font-bold w-[40%]">
+                  Resources for Your Well-being
+                </p>
+                <p class="w-[50%] text-center">
+                  Explore expert insights, self-care guides, and tools to
+                  support your mental health.
+                </p>
+              </div>
+              <div class="card-wrapper flex justify-around flex-wrap my-10">
+                <div
+                  class="card-item bg-white rounded-4xl text-center px-5 py-10 w-[30%] h-100 space-y-15 text-lg"
+                >
+                  <p class="font-bold text-3xl">Articles & Guides</p>
+                  <p>
+                    Practical tips on stress management, mindfulness, and
+                    emotional resilience.
+                  </p>
+                  <button class="bg-[#EFC01D] rounded-3xl px-5 py-2">
+                    Explore
+                  </button>
+                </div>
+                <div
+                  class="card-item bg-white rounded-4xl text-center py-10 px-5 w-[30%] h-100 space-y-15 text-lg"
+                >
+                  <p class="font-bold text-3xl">Meditation & Relaxation</p>
+                  <p>
+                    Audio sessions for guided meditation and deep breathing
+                    exercises.
+                  </p>
+                  <button class="bg-[#4CCBBB] rounded-3xl px-5 py-2">
+                    Explore
+                  </button>
+                </div>
+                <div
+                  class="card-item bg-white rounded-4xl text-center py-10 px-5 w-[30%] h-100 space-y-15 text-lg"
+                >
+                  <p class="font-bold text-3xl">Webinars & Workshops</p>
+                  <p>
+                    Live and recorded sessions with mental health professionals.
+                  </p>
+                  <button class="bg-[#F39CAC] rounded-3xl px-5 py-2">
+                    Explore
+                  </button>
+                </div>
+              </div>
+            </div> -->
+
+          <!-- Community -->
+          <!-- <div class="community relative w-full h-fit bg-white rounded-3xl px-15 py-10 space-y-5 text-xl">
+              <p>community</p>
+              <p class="text-7xl font-bold w-[50%]">You’re Not Alone on This Journey</p>
+              <p class="w-[40%]">Connect with others, share experiences, and find encouragement in a safe, supportive space.</p>
+              <button class="bg-[#00373E] px-5 py-2 rounded-3xl text-white">Join The Community</button>
+              <img src="assets/Illustration_11.png" class="absolute right-0 bottom-0 w-auto h-70 " alt="">
+             </div> -->
         </div>
       </div>
     </main>
